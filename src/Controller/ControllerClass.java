@@ -18,6 +18,7 @@ import java.util.List;
  * @author manoj.bardhan
  *
  */
+@ControllerAdvice
 @Controller
 
 
