@@ -18,12 +18,12 @@ import java.util.List;
  * @author manoj.bardhan
  *
  */
-@ControllerAdvice
+
 @Controller
 
 
 public class ControllerClass extends DB_Product {
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/")
     public ModelAndView home() {
    
         ModelAndView x=new ModelAndView("index");
